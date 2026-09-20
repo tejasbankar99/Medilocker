@@ -1,0 +1,49 @@
+name: medilocker
+description: Your Medical History, Anytime, Anywhere.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase Backend (latest — supports new sb_publishable_ key format)
+  supabase_flutter: ^2.17.2
+
+  # State Management
+  provider: ^6.1.2
+
+  # Navigation
+  go_router: ^14.0.0
+
+  # File picking (latest — fixes Android SDK compatibility)
+  file_picker: ^8.1.7
+  image_picker: ^1.1.2
+
+  # QR code
+  qr_flutter: ^4.1.0
+
+  # UI
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.5.1
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.4
+  mime: ^2.1.0
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
